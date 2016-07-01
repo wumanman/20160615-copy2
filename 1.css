@@ -1,0 +1,218 @@
+
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+img{
+    display: block;
+    border:none;
+
+}
+body{
+    background: url("images/bg.jpg")top center no-repeat;
+    height:7600px;
+    min-width: 990px;
+}
+.banner{
+    background: url("images/bg01.jpg")top center no-repeat;
+    height:1579px;
+}
+.banner-cen{
+     width: 990px;
+     margin:auto;
+     position: relative;
+     height:100%;
+ }
+.banner-car{
+    position: absolute;
+    top:26px;
+    left: 200px;
+}
+
+.banner-circle{
+    position: absolute;
+    top:80px;
+    left:294px;
+}
+
+.banner-happy{
+    position: absolute;
+    top:282px;
+    left:141px;
+}
+.banner-whiteStrip{
+    position: absolute;
+    top:400px;
+    left:170px;
+}
+.banner-ws61800{
+    position: absolute;
+    top:485px;
+    left:265px;
+}
+.banner-doubleRain{
+    position: absolute;
+    top:580px;
+    left:25px;
+}
+
+.list-discount{
+    position: absolute;
+    top:788px;
+    left:-60px;
+    /*width: 1094px;*/
+
+}
+
+.list-discount li{
+    float: left;
+    list-style: none;
+    margin-left:5px;
+}
+.list-discount li a{
+    text-decoration: none;
+}
+.list-discount .img1{
+    display: block;
+    width: 258px;
+    height: 357px;
+    border:none;
+}
+.list-discount .img2{
+    display: block;
+    width: 257px;
+    height: 186px;
+    border:none;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.ipone-banner618{
+    position: absolute;
+    top:1166px;
+    left:-106px;
+}
+
+.rain-backToTop{
+    position: fixed;
+    right:0;
+    top:50px;
+    z-index: 1;
+}
+.three-whiteStrip{
+    position:absolute;
+    top:1374px;
+    left:-30px;
+    width: 1078px;
+}
+.three-whiteStrip ul li{
+    float: left;
+    margin:10px;
+}
+.container{
+    position:relative;
+    width: 100%;
+    margin:0 auto;
+}
+.container1-top{
+    background: url("images/jdjr20160613_10.jpg")top center no-repeat;
+    height:298px;
+}
+.container1-top-cen{
+    width: 990px;
+    margin:0 auto;
+    position: relative;
+}
+.container1-top-cen .leftImg{
+    position: absolute;
+    top:126px;
+    left: 280px;
+}
+.container1-top-cen .rightImg{
+    position: absolute;
+    top:126px;
+    left: 938px;
+}
+
+.white-space-cen{
+    position: relative;
+    width: 1078px;
+    margin:0 auto;
+    /*top:234px;*/
+    /*left:250px;*/
+}
+.ul-list{
+    position: absolute;
+    top:-64px;
+    left:38px;
+}
+.white-space-cen ul li {
+  float: left;
+}
+.white-space-cen ul li img {
+    display: inline-block;
+    margin:5px;
+}
+.container2{
+position: absolute;
+    top:1120px;
+    left:100px;
+}
+.container2-top{
+    background: url("images/jdjr20160613_12.jpg")top center no-repeat;
+    height:341px;
+}
+.container3{
+    position: absolute;
+    top:2274px;
+    left:100px;
+}
+.container3-top{
+    background: url("images/jdjr20160613_14.jpg")top center no-repeat;
+    height:341px;
+}
+.container4{
+    position: absolute;
+    top:3394px;
+    left:100px;
+}
+.container4-top{
+    background: url("images/jdjr20160613_16.jpg")top center no-repeat;
+    height:341px;
+}
+.container5{
+    position: absolute;
+    top:4534px;
+    left:100px;
+}
+.container5-top{
+    background: url("images/jdjr20160613_18.jpg")top center no-repeat;
+    height:341px;
+}
+
+.btn-footer{
+    background:rgba(0,0,0,0.4);
+    width: 100%;
+    height: 55px;
+    bottom: 0;
+    position:fixed;
+    z-index: 1;
+}
+.btn-footer .cen{
+    width: 990px;
+    margin:auto;
+}
+.btn-footer .cen ul li {
+    float: left;
+    list-style: none;
+}
+.btn-footer .cen ul li img {
+   display: inline-block;
+}

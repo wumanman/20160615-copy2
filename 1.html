@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="1.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function(){
+            //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
+            $(function () {
+//                $(window).scroll(function(){
+//                    if ($(window).scrollTop()>200)
+//                    {  $(".rain-backToTop").fadeIn();
+//                    }
+//                    else{
+//                        $(".rain-backToTop").fadeOut();
+//                    }
+//                });
+
+                //当点击跳转链接后，回到页面顶部位置
+
+                $(".rain-backToTop").click(function(){
+                    $('body,html').animate({scrollTop:0},80);
+                    return false;
+                });
+                $(window).trigger('scroll');
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="banner">
+      <div class="banner-cen">
+         <div class="banner-cen-top">
+                 <div class="banner-car">
+                     <img src="images/goods1.png">
+                 </div>
+                 <div class="banner-circle">
+                     <img src="images/xian.png">
+                 </div>
+                 <div class="banner-happy">
+                     <img src="images/kuanghuan.png">
+                 </div>
+             <div class="banner-whiteStrip">
+                 <img src="images/zhuliyi.png">
+             </div>
+             <div class="banner-ws61800">
+                 <img src="images/ciliyi.png">
+             </div>
+             <div class="banner-doubleRain">
+                 <img src="images/fanbei.png">
+             </div>
+         </div>
+        <div class="banner-cen-down">
+            <ul class="list-discount clearfix">
+                <li><a href=""><img class="img1" src="images/wajin.png" alt=""></a></li>
+                <li><a href=""><img class="img1" src="images/car.png" alt=""></a></li>
+                <li><a href=""><img class="img2" style="margin-top:-12px;" src="images/bt-12.png" alt=""></a></li>
+                <li><a href=""><img class="img2" style="margin-top:-10px;" src="images/未标题-3_06.png" alt=""></a></li>
+                <li><a href=""><img class="img2" src="images/未标题-3_13.png" alt=""></a></li>
+                <!--<li><a href=""><img style="position: absolute; top:200px;left:785px;" src="images/未标题-3_16.png" alt=""></a></li>-->
+                <li><a href=""><img class="img2" style="margin-top:4px;" src="images/未标题-3_16.png" alt=""></a></li>
+            </ul>
+            <div class="ipone-banner618">
+              <img src="images/iphone-banner_03.png" alt="">
+            </div>
+            <div class="three-whiteStrip clearfix">
+                <ul>
+                    <li><a href=""> <img src="images/未标题-4_03.png" alt=""></a></li>
+                    <li><a href=""> <img src="images/未标题-4_03.png" alt=""></a></li>
+                    <li><a href=""> <img src="images/未标题-4_03.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rain-backToTop">
+                <img src="images/rain.png">
+            </div>
+        </div>
+
+      </div><!--this is end of banner-cen-->
+</div><!--this is end of banner-->
+<div class="container">
+    <div class="container1">
+        <div class="container1-top">
+            <div class="container1-top-cen">
+                <div class="leftImg">
+                    <img src="images/link-purple_03.jpg">
+                </div>
+                <div class="rightImg">
+                    <img src="images/link-purple_03.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="white-space">
+            <div class="white-space-cen">
+                <ul class="ul-list clearfix">
+                    <li><a href="#"><img src="images/double-img.jpg" alt="" style="margin-left: 5px;"></a></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container2-top">
+        </div>
+        <div class="white-space">
+            <div class="white-space-cen">
+                <ul class="ul-list clearfix">
+                    <li><a href="#"><img src="images/bike.jpg" alt="" style="margin-left: 5px;"></a></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container3">
+        <div class="container3-top">
+        </div>
+    <div class="white-space">
+        <div class="white-space-cen">
+            <ul class="ul-list clearfix">
+                <li><a href="#"><img src="images/double-img.jpg" alt="" style="margin-left: 5px;"></a> </li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+                <li><img src="images/kongbai_14.jpg" alt=""></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+    <div class="container4">
+        <div class="container4-top">
+        </div>
+        <div class="white-space">
+            <div class="white-space-cen">
+                <ul class="ul-list clearfix">
+                    <li><a href="#"><img src="images/double-img.jpg" alt="" style="margin-left: 5px;"></a></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container5">
+        <div class="container5-top">
+        </div>
+        <div class="white-space">
+            <div class="white-space-cen">
+                <ul class="ul-list clearfix">
+                    <li><a href="#"><img src="images/double-img.jpg" alt="" style="margin-left: 5px;"></a></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                    <li><img src="images/kongbai_14.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="btn-footer">
+        <div class="cen">
+            <ul>
+                <li><a href="javascript:;"><img src="images/吸底_06.png"></a><img src="images/吸底_07.png"></li>
+                <li><a href="javascript:;"><img src="images/吸底_08.png"></a><img src="images/吸底_07.png"></li>
+                <li><a href="javascript:;"><img src="images/吸底_10.png"></a><img src="images/吸底_07.png"></li>
+                <li><a href="javascript:;"><img src="images/吸底_12.png"></a><img src="images/吸底_07.png"></li>
+                <li><a href="javascript:;"><img src="images/吸底_14.png"></a><img src="images/吸底_07.png"></li>
+                <li><a href="javascript:;"><img src="images/吸底_16.png"></a><img src="images/吸底_07.png"></li>
+                <li><a href="javascript:;"><img src="images/吸底_03.png"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    </div>
+
+    
+</body>
+
+</html>
